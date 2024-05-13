@@ -1,0 +1,10 @@
+from codrone_edu.drone import *
+drone = Drone()
+drone.pair()
+drone.takeoff()
+drone.set_pitch(20)
+drone.move(1)
+drone.set_roll(-20)
+drone.move(2)
+drone.land()
+drone.close()
